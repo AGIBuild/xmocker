@@ -120,4 +120,3 @@ Create JSON files for the responses in the `api` directory. For example:
 ## License
 
 This project is licensed under the MIT License.
-```
