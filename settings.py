@@ -1,15 +1,18 @@
 # settings.py
 # Constants for the mock server
 
+# settings.py
+# Constants for the mock server
+
 PORT = 5000
 
 BASE_URLS = {
     'base1': {
-        'base_url': '/',
+        'base_url': '/welcome',
         'apis': [
             {
-                'name': 'data',
-                'url': '/',
+                'name': 'welcome',
+                'url': '/welcome',
                 'method': 'GET',
                 'response_file': 'response_welcome.json'
             }
